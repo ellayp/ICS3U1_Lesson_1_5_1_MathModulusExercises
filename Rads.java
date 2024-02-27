@@ -12,12 +12,12 @@ class Rads extends ConsoleProgram {
     double dblRadians;
 
     // Get degree measures
-    dblDegrees = readDouble("Enter the angle in degrees:");
+    dblDegrees = readDouble("Enter the angle in degrees: ");
 
-    // Comupte radian measures
+    // Convert degree measures to radian measures
     dblRadians = Math.toRadians(dblDegrees);
 
     //Output radian measures
-    System.out.println(dblDegrees + "degrees =" + dblRadians + "radians");
+    System.out.println(dblDegrees + " degrees = " + dblRadians + " radians");
   }
 }
